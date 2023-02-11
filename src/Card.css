@@ -1,0 +1,16 @@
+.Card {
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.Card:hover {
+  box-shadow: 1px 1px 2px #33333385;
+}
+
+.Card_img {
+  max-width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
