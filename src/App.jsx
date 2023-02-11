@@ -1,9 +1,12 @@
 import reactLogo from './assets/react.svg'
 import './App.css'
 
+import NavBar from './NavBar'
+
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <div>
         <img src={reactLogo} className="logo react" alt="React logo" />
       </div>
