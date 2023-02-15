@@ -1,8 +1,10 @@
+import './Gallery.css'
+
 import Card from "./Card"
 
 const Gallery = () => {
   return (
-    <div>
+    <div className="Gallery">
       <Card />
       <Card />
       <Card />

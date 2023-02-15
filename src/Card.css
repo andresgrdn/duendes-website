@@ -1,12 +1,13 @@
 .Card {
-  border: 1px solid #333;
+  border: 1px solid hsl(208, 37%, 20%);
   border-radius: 8px;
-  margin-bottom: 8px;
   cursor: pointer;
+  max-width: 340px;
+  overflow: hidden;
 }
 
 .Card:hover {
-  box-shadow: 1px 1px 2px #33333385;
+  box-shadow: 1px 1px 2px hsla(208, 37%, 20%, 0.5);
 }
 
 .Card_img {
