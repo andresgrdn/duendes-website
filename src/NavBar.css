@@ -1,5 +1,13 @@
 .NavBar {
   display: flex;
-  align-items: baseline;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .NavBar a:first-of-type {
+    margin-left: auto;
+  }
 }

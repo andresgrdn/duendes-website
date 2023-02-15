@@ -10,7 +10,7 @@ function App() {
       <div>
         <img src={reactLogo} className="logo react" alt="React logo" />
       </div>
-      <h1>Duendes</h1>
+      {/* <h1>Duendes</h1> */}
       <NavBar />
       <Gallery />
       <div className="card">
