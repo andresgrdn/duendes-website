@@ -1,26 +1,22 @@
-import reactLogo from './assets/react.svg'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
-import NavBar from './NavBar'
-import Gallery from './Gallery'
+import Home from './pages/Home'
+import Contacts from './pages/Contacts'
+import NotFound from './pages/NotFound'
+import GalleryPage from './pages/GalleryPage'
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <img src={reactLogo} className="logo react" alt="React logo" />
-      </div>
-      {/* <h1>Duendes</h1> */}
-      <NavBar />
-      <Gallery />
-      <div className="card">
-        <p>
-          Pagina prueba
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Made by arcano
-      </p>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/galeria" element={<GalleryPage />} />
+          <Route exact path="/contactos" element={<Contacts />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
