@@ -10,6 +10,7 @@ const Card = () => {
         alt="Duende"
         className='Card_img' />
       <Description />
+      <a href="https://wa.me/593978774872?text=Me%20interesa%20este%20producto" target='_blank'>Comprar</a>
     </div>
   )
 }
