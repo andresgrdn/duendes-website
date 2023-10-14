@@ -6,7 +6,6 @@ const NavBar = () => {
       <h1>Manos Creativas R&R</h1>
       <nav>
         <a href="/">Home</a>
-        <a href="/galeria">Galeria</a>
         <a href="/contactos">Contactos</a>
       </nav>
     </div>

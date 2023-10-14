@@ -15,3 +15,9 @@
   object-position: center;
   object-fit: cover;
 }
+
+.Card a {
+  display: block;
+  min-height: 40px;
+  width: 100%;
+}

@@ -7,9 +7,6 @@ function Home() {
   return (
     <div className="Home">
       <NavBar />
-      <div>
-        Descripcion del negocio
-      </div>
       <Gallery />
       <p className="read-the-docs">
         Made by arcano
